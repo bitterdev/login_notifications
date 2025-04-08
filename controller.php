@@ -2,9 +2,7 @@
 
 namespace Concrete\Package\LoginNotifications;
 
-use Concrete\Core\Authentication\AuthenticationType;
 use Concrete\Core\Package\Package;
-use Concrete\Core\Entity\Package as PackageEntity;
 use LoginNotifications\Provider\ServiceProvider;
 
 class Controller extends Package
