@@ -1,5 +1,10 @@
 {
   "name": "bitter/login_notifications",
   "type": "concrete5-package",
-  "description": "Get notified when a user logs in from a new device for improved account security."
+  "description": "Get notified when a user logs in from a new device for improved account security.",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\LoginNotifications\\": "src/Bitter/LoginNotifications"
+    }
+  }
 }
