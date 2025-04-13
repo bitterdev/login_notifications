@@ -81,6 +81,7 @@ class ServiceProvider extends Provider
                     if ($this->request->server->has($headerKey) &&
                         filter_var($this->request->server->get($headerKey), FILTER_VALIDATE_IP)) {
                         $ip = $this->request->server->get($headerKey);
+                        break;
                     }
                 }
 
